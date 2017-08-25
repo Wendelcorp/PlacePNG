@@ -1,0 +1,27 @@
+{
+  "name": "PlacePNG",
+  "productName": "PlacePNG",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "ISC",
+  "author": "Bryce Wendelaar",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager ./ --platform=darwin --arch=x64 --out=out --icon=./icon.icns --overwrite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinsawicki/tray-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kevinsawicki/tray-example/issues"
+  },
+  "homepage": "https://github.com/kevinsawicki/tray-example#readme",
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "electron-packager": "^7.3.0",
+    "electron-prebuilt": "^1.2.7",
+    "express": "^4.15.4",
+    "jade": "^1.11.0"
+  }
+}

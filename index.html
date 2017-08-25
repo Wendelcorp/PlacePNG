@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./vendor/css/photon.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="./index.css" media="screen" charset="utf-8">
+    <script charset="utf-8">require('./index')</script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="my-form">
+        <form id="form" action="post">
+          <div class="fields">
+            <input type="text" placeholder="width" id="width">
+            <input type="text" placeholder="height" id="height">
+          </div>
+          <input id="submitbutton" type="submit" value="generate png">
+        </form>
+      </div>
+      <a id="downloadlink" download="YourFileName.png">Download as image</a>
+      <div id="quit"></div>
+    </div>
+  </body>
+</html>
